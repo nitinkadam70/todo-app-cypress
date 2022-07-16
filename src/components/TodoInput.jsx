@@ -7,7 +7,7 @@ const TodoInput = ({ value, handleChange, handleSubmit }) => {
   };
   return (
     <form onSubmit={submit}>
-      <input type="text" value={value} onChange={handleChange} />
+      <input className="task-input" type="text" value={value} onChange={handleChange} />
       <button type="submit">Add</button>
     </form>
   );
